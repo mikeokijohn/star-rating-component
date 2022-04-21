@@ -25,6 +25,6 @@ The component must be accessible and work in the majority of browser; Edge, Chro
 ## What we are looking for:
 * Code, Communication & Presentation skills
 * Domain knowledge of frontend web development
-* Analytical skills and a prioritized approach to delivering the best possible outcomes while still discovering the problem
+* Analytical skills and a prioritized approach to delivering the best possible outcome.
 * Being able to work structured under time pressure
 
