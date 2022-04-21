@@ -6,6 +6,8 @@ The component must be accessible and work in the majority of browser; Edge, Chro
 
 **Tip:** Don't waste time on setting up a huge project from scratch. We have created a boilerplate for you to use. 
 
+![](star-rating-component.png)
+![](star-rating-component-w.png)
 ## Constraints for the solution:
 * You must utilize web-components. We can recommend e.g. https://lit.dev/ and the included boilerplate is also based on Lit, but feel free to use any other framework to solve the case.
 * You Must be using a open git repository. 
