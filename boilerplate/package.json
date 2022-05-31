@@ -1,7 +1,7 @@
 {
   "name": "klik-interview-case",
   "version": "1.0.0",
-  "author": "Jørgen Skogmo <joergen.skogmo.toft@consultant.lego.com>",
+  "author": "",
   "license": "MIT",
   "scripts": {
     "dev": "vite",
