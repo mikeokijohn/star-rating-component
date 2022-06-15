@@ -8,16 +8,57 @@
     <link rel="stylesheet" href="https://assets.lego.com/fonts/v1/cera-pro.css">
     <style>
       html:root {
-        --star-color: #ebebeb;
+        --star-color: #E1E1E1;
       }
       html,
       body {
         font-family: 'Cera Pro';
       }
+
+      .sections {
+        margin: 30px 0 0 30px;
+      }
+
+      .section {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+      }
+
+      .section__col {
+        margin-right: 30px;
+      }
+
+      .section__col p {
+        margin-top: 15px;
+      }
     </style>
   </head>
   <body>
     <!-- your component here -->
-    <case-rating></case-rating>
+    <div class="sections">
+      <h3>Size</h3>
+      <div class="section">
+        <div class="section__col">
+          <case-rating size="L" rating="4"></case-rating>
+          <p>Large (L)</p>
+        </div>
+        <div class="section__col">
+          <case-rating></case-rating>
+          <p>Medium (M - default)</p>
+        </div>
+        <div class="section__col">
+          <case-rating size="S"></case-rating>
+          <p>Small (S)</p>
+        </div>
+      </div>
+      <h3>States</h3>
+      <div class="section">
+        <div class="section__col">
+          <case-rating disabled></case-rating>
+          <p>Disabled</p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
