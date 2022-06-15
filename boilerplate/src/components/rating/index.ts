@@ -99,7 +99,7 @@ export class CaseRating extends LitElement {
         `;
     }
 
-    private _defineState(e: Event): void {
+    private _defineState(_e: Event): void {
         // console.log(e.target)
         // Here we could do something with the checked values
     }
