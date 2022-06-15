@@ -8,7 +8,19 @@ export class CaseRating extends LitElement {
     ratingStyles
   ];
   render() {
-    return html`<div>CaseRating component</div>`;
+    return html`
+      <form>
+        <fieldset>
+          <legend>Star rating component</legend>
+          <label for="rate1"></label>
+          <input type="radio" id="rate1" @change="${this._defineState}">
+        </fieldset>
+      </form>
+    `;
+  }
+
+  private _defineState(e: Event): void {
+    console.log(e)
   }
 }
 
