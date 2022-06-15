@@ -2,6 +2,14 @@ import { CSSResultGroup } from "lit";
 import { css } from 'lit';
 
 export const ratingStyles: CSSResultGroup = css`
+    .star-rating {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;      
+    }
+
     .star-rating__fieldset {
         display: flex;
         flex-wrap: wrap;
